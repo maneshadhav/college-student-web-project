@@ -1,0 +1,13 @@
+{
+  "name": "college-student-web-project",
+  "version": "1.0.0",
+  "description": "A personal web project for a college student showcasing their resume.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
