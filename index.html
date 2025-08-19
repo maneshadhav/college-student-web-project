@@ -5,39 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Student Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="assets/resume.pdf" target="_blank">Download Resume</a></li>
-            </ul>
-        </nav>
+    <header class="modern-header">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/resume.pdf" target="_blank">Download Resume</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello, I'm Manesh Adhav K, a dedicated and enthusiastic student with a strong passion for learning and personal growth. I am currently pursuing my academic journey with a focus on computer science and software devlopment, and I am continually working to expand my skills and knowledge in both academic and practical settings.
-
-                I take pride in being a motivated and curious individual who enjoys taking on new challenges. Whether working independently or as part of a team, I strive to bring a positive attitude, strong work ethic, and creative problem-solving approach to every project I undertake.
-                
-                My portfolio showcases my academic achievements, personal projects, and ongoing learning experiences. I’m excited about the opportunities ahead and look forward to contributing meaningfully to the professional world.</p>
+        <section id="about" class="modern-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello, I'm Manesh Adhav K, a dedicated and enthusiastic student with a strong passion for learning and personal growth. I am currently pursuing my academic journey with a focus on computer science and software development, and I am continually working to expand my skills and knowledge in both academic and practical settings.</p>
+                <p>I take pride in being a motivated and curious individual who enjoys taking on new challenges. Whether working independently or as part of a team, I strive to bring a positive attitude, strong work ethic, and creative problem-solving approach to every project I undertake.</p>
+                <p>My portfolio showcases my academic achievements, personal projects, and ongoing learning experiences. I’m excited about the opportunities ahead and look forward to contributing meaningfully to the professional world.</p>
+            </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>List your projects or experiences here.</p>
+        <section id="projects" class="modern-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="assets/project1.jpg" alt="Project 1" class="project-image">
+                        <h3>Project 1</h3>
+                        <p>Brief description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/project2.jpg" alt="Project 2" class="project-image">
+                        <h3>Project 2</h3>
+                        <p>Brief description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/project3.jpg" alt="Project 3" class="project-image">
+                        <h3>Project 3</h3>
+                        <p>Brief description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide your contact information here.</p>
+        <section id="contact" class="modern-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:manesh@example.com">manesh@example.com</a></p>
+                    <p><i class="fas fa-phone"></i> Phone: +123 456 7890</p>
+                    <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    <footer class="modern-footer">
+        <div class="container">
+            <p>&copy; 2023 Manesh Adhav K. All rights reserved.</p>
+        </div>
     </footer>
     <script src="scripts/main.js"></script>
 </body>
